@@ -55,7 +55,7 @@ export default {
           content: this.info,
           due: format(this.due, "Do MMM YYY"),
           person: "The Net Ninja",
-          status: "Ongoing"
+          status: "ongoing"
         };
 
         db.collection("projects")
