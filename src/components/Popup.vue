@@ -63,6 +63,7 @@ export default {
           .then(() => {
             this.loading = false;
             this.showDialog = false;
+            this.$emit("projectAdded");
           });
       }
     }
