@@ -35,7 +35,7 @@
       <v-layout column align-center>
         <v-flex class="mt-5">
           <v-avatar size="100">
-            <img src="/avatar-1.png">
+            <img src="avatar-1.png">
           </v-avatar>
           <p class="white--text subheading mt-1">The Net Ninja</p>
         </v-flex>
