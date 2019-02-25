@@ -32,6 +32,7 @@
 
 <script>
 import format from "date-fns/format";
+import db from "@/fb";
 
 export default {
   data() {
@@ -44,9 +45,19 @@ export default {
   },
   methods: {
     submit() {
-        if (this.$refs.form).validate()){
-          console.log(this.title, this.info);
-        }
+      if (this.$refs.form.validate()) {
+        const project = {
+          title: this.title,
+          content: this.info,
+          due: format(this.due, "Do MMM YYY"),
+          person: "The Net Ninja",
+          status: "Ongoing"
+        };
+
+        db.collection("projects")
+          .add(project)
+          .then(() => console.log("added to db"));
+      }
     }
   },
   computed: {
