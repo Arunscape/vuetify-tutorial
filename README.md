@@ -1,29 +1,7 @@
-# vuetify-tutorial
+## This is the result of following an online tutorial
 
-## Project setup
-```
-yarn install
-```
+https://www.youtube.com/watch?v=2uZYKcKHgU0&list=PL4cUxeGkcC9g0MQZfHwKcuB0Yswgb3gA5
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## The site is live here: 
 
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+https://arunscape.github.io/vuetify-tutorial/
